@@ -4,32 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/black">
 
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
         android:layout_marginTop="296dp"
         android:layout_marginEnd="155dp"
-        android:text="Get free tip"
+        android:text="@string/bet_button"
+        android:textColor="@color/yellow"
         android:onClick="BtnBetClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/cardview_dark_background"/>
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="155dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="155dp"
-        android:text="Statistics"
+        android:background="@color/cardview_dark_background"
         android:onClick="BtnStatsClick"
+        android:text="@string/stats_button"
+        android:textColor="@color/yellow"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/cardview_dark_background"
+        android:text="@string/vip_button"
+        android:textColor="@color/yellow"
+        android:onClick="BtnVipClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

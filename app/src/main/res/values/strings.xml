@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Sports betting</string>
+    <string name="activity_bet">Tips</string>
+    <string name="activity_stats">Statistics</string>
+    <string name="bet_button">Get FREE tip</string>
+    <string name="stats_button">Statistics</string>
+    <string name="vip_button">VIP</string>
+    <string name="week_button">1 week</string>
+    <string name="month_button">1 month</string>
+    <string name="sixmonth_button">6 month</string>
 </resources>
